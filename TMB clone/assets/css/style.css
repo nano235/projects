@@ -8,12 +8,12 @@ html {
   
   @font-face {
     font-family: localRobotoFont;
-    src: url('fonts/Roboto-Regular.ttf');
+    src: url('assets/fonts/Roboto-Regular.ttf');
   }
 
   @font-face {
     font-family: localRobotoFontBlack;
-    src: url('fonts/Roboto-Black.ttf');
+    src: url('assets/fonts/Roboto-Black.ttf');
   }
 
   body {
@@ -35,10 +35,10 @@ html {
 
   .nav-logo {
       text-decoration: none;
-      flex: 1 1 50%;
+      flex: 1 1 40%;
   }
   .nav-div {
-    flex: 1 1 50%;
+    flex: 1 1 60%;
   }
 
   .inner-nav-div {
@@ -52,6 +52,26 @@ html {
       padding: 20px 5px;
       margin: 0 5px;
       text-align: right;
+      position: relative;
+  }
+
+  .dropdown {
+    border: 1px solid transparent;
+    padding: 10px;
+    position: absolute;
+  }
+
+  .dropdown a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: left;
+    border-bottom: 1px solid orangered;
+    padding: 10px;
+    border-width: 100%;
+    z-index: 2;
   }
 
   .nav-btn {
