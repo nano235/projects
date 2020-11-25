@@ -71,7 +71,9 @@ html {
       width: auto;
   }
 
+
   .dropdown, .inner-dropdown {
+    display: none;
     border: 1px solid transparent;
     border-top: 3px solid #f7c25e;
     padding: 10px 15px 10px 10px;
@@ -81,6 +83,10 @@ html {
     font-weight: bold;
     box-shadow: 1px 1px 8px #888888;
     text-transform: uppercase;
+  }
+
+  .nav-link:hover .dropdown {
+    display: block;
   }
 
   .inner-dropdown {
@@ -103,6 +109,7 @@ html {
   }
 
   .dropdown a:hover {
+    display: block;
     border: 1px solid transparent;
     background-color: #f1f1f1;
     color: #f7c25e;
