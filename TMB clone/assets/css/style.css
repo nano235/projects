@@ -16,14 +16,25 @@ html {
     src: url('assets/fonts/Roboto-Black.ttf');
   }
 
+  @font-face {
+    font-family: 'heeboRegular';
+    src: url('assets/fonts/Heebo-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'heeboBold';
+    src: url('assets/fonts/Heebo-Bold.ttf');
+  }
+
+
   body {
     margin: 0;
     padding: 0;
     background: #f5f5f5;
     height: 100%;
-    font-family: localRobotoFont, Arial, sans-serif;
+    font-family: 'localRobotoFont', Arial, sans-serif;
   }
-
+/*styling the nav starts here*/
   nav {
       display: flex;
       width: 100%;
@@ -31,6 +42,8 @@ html {
       background-color: #fff;
       margin-bottom: 30px;
       border-bottom: 2px solid #ccc;
+      position: fixed;
+      top: 0;
   }
 
   .nav-logo {
@@ -46,6 +59,8 @@ html {
   }
 
   .nav-link {
+      font-family: 'heeboBold';
+      font-weight: bold;
       display: inline-block;
       text-decoration: none;
       color: black;
@@ -53,25 +68,44 @@ html {
       margin: 0 5px;
       text-align: right;
       position: relative;
+      width: auto;
   }
 
-  .dropdown {
+  .dropdown, .inner-dropdown {
     border: 1px solid transparent;
-    padding: 10px;
+    border-top: 3px solid #f7c25e;
+    padding: 10px 15px 10px 10px;
     position: absolute;
+    background-color: #fff;
+    font-family: 'heeboBold';
+    font-weight: bold;
+    box-shadow: 1px 1px 8px #888888;
+    text-transform: uppercase;
   }
 
+  .inner-dropdown {
+    left: 210px;
+    top: 5px;
+  }
+ 
   .dropdown a {
     display: block;
     text-decoration: none;
     color: black;
-    padding: 10px;
+    padding: 10px 15px 10px 10px;
     margin: 0 5px;
     text-align: left;
-    border-bottom: 1px solid orangered;
     padding: 10px;
     border-width: 100%;
     z-index: 2;
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .dropdown a:hover {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    color: #f7c25e;
   }
 
   .nav-btn {
@@ -85,3 +119,5 @@ html {
   .nav-btn:hover {
       background-color: #ccc;
   }
+
+  /*styling the nav ends here*/
