@@ -159,6 +159,19 @@ html {
     background-color: #eee;
   }
 
+  /*animation for the slider starts here*/
+
+  @keyframes animate {
+    from {
+      display: block;
+    }
+    to {
+      display: none;
+    }
+  }
+
+  /*animation for the slider ends here*/
+
   .slider-text {
     text-transform: uppercase;
     font-family: 'heebo';
@@ -171,6 +184,13 @@ html {
     background: linear-gradient(to right, #f7c25e, #f14272 , #414cf7); 
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+    animation-name: animate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-duration: 5s;
   }
 
   .block-display {
@@ -208,5 +228,7 @@ html {
   .hide {
     display: none;
   }
+
+  
 
   /*slider the nav ends here*/
