@@ -36,7 +36,7 @@ html {
   }
 /*styling the nav starts here*/
   nav {
-      font-family: heeboBold;
+      font-family: 'heebo';
       display: flex;
       flex-wrap: wrap;
       width: 100%;
@@ -59,7 +59,7 @@ html {
   }
 
   .nav-link {
-      font-family: 'heeboBold';
+      font-family: 'heebo';
       font-weight: bold;
       display: inline-block;
       text-decoration: none;
@@ -96,7 +96,7 @@ html {
  
   .dropdown a {
     display: block;
-    text-decoration: none;
+    text-decoration: none;font-family: 'heebo';
     color: black;
     padding: 10px 15px 10px 10px;
     margin: 0 5px;
@@ -124,6 +124,7 @@ html {
 
   .nav-btn {
       background-color: transparent;
+      font-family: 'heebo';
       padding: 10px;
       margin: 0 5px;
       border: 2px solid #aaa;
@@ -137,37 +138,63 @@ html {
   /*styling the nav ends here*/
 
   .shadow {
-    border-bottom: 1px solid transparent;
     box-shadow: 1px 1px 8px #888888;
   }
 
   /*slider the nav starts here*/
   .container {
     display: flex;
+    background-image: url(assets/images/hero-bg.svg);
     align-items: center;
+    align-content: center;
     justify-content: center;
     padding: 40px;
-    margin: 50px;
-    background-color: #ffffff;
+    margin: 5px 0;
     height: auto;
   }
 
   .inner-container {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #eee;
+  }
+
+  .slider-text {
+    text-transform: uppercase;
+    font-family: 'heebo';
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 133px;
+    font-weight: 900;
+    line-height: 200px;
+    background: linear-gradient(to right, #f7c25e, #f14272 , #414cf7); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+
+  .block-display {
     display: block;
-    background-color: #ccc;
   }
 
   .write-up{
     text-align: center;
-    font-family: heeboRegular;
-    font-size: 12px;
+    font-family: 'heebo';
+    font-size: 20px;
+    margin: 15px auto;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    width: 650px;
   }
 
   .style-btn {
     background-color: #333;
+    font-family: 'heebo';
+    font-weight: 700;
+    font-size: 16px;
     color: #fff;
-    padding: 20px 10px;
-    border-radius: 25px;
+    padding: 20px 30px;
+    border-radius: 45px;
     text-transform: uppercase;
     text-align: center;
     border: 3px solid #333;
