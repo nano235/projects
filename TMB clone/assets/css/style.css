@@ -36,14 +36,14 @@ html {
   }
 /*styling the nav starts here*/
   nav {
+      font-family: heeboBold;
       display: flex;
+      flex-wrap: wrap;
       width: 100%;
-      padding: 20px 60px 10px;
+      padding: 20px 60px 0;
       background-color: #fff;
-      margin-bottom: 30px;
-      border-bottom: 2px solid #ccc;
-      position: fixed;
-      top: 0;
+      border-bottom: 1px solid #ccc;
+      box-shadow: 1px 1px 8px #888888;
   }
 
   .nav-logo {
@@ -108,6 +108,10 @@ html {
     width: 200px;
   }
 
+  .second-dropdown{
+    position: relative;
+  }
+
   .second-dropdown:hover .inner-dropdown {
     display: block;
   }
@@ -131,3 +135,51 @@ html {
   }
 
   /*styling the nav ends here*/
+
+  .shadow {
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 8px #888888;
+  }
+
+  /*slider the nav starts here*/
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 50px;
+    background-color: #ffffff;
+    height: auto;
+  }
+
+  .inner-container {
+    display: block;
+    background-color: #ccc;
+  }
+
+  .write-up{
+    text-align: center;
+    font-family: heeboRegular;
+    font-size: 12px;
+  }
+
+  .style-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px solid #333;
+  }
+
+  .style-btn:hover {
+    background-color: transparent;
+    color: black;
+  }  
+
+  .hide {
+    display: none;
+  }
+
+  /*slider the nav ends here*/
