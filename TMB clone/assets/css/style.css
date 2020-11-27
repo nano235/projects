@@ -157,16 +157,20 @@ html {
     display: inline-block;
     margin: 0 auto;
     background-color: #eee;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-width: 850px;
   }
 
   /*animation for the slider starts here*/
 
   @keyframes animate {
     from {
-      display: block;
+      content: 'developers';
     }
     to {
-      display: none;
+      content: 'designers';
     }
   }
 
@@ -184,17 +188,19 @@ html {
     background: linear-gradient(to right, #f7c25e, #f14272 , #414cf7); 
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+  }
+
+  .slider-text:after {
+    content: "developers";
     animation-name: animate;
-    animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-delay: 0s;
-    animation-direction: normal;
     animation-timing-function: linear;
     animation-duration: 5s;
   }
 
   .block-display {
     display: block;
+    margin: 0 auto;
   }
 
   .write-up{
@@ -218,6 +224,7 @@ html {
     text-transform: uppercase;
     text-align: center;
     border: 3px solid #333;
+    margin: 0 auto;
   }
 
   .style-btn:hover {
