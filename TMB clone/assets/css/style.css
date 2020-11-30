@@ -299,3 +299,17 @@ html {
   /*styling the parallax section ends here*/
 
 
+  /*styling the 'what clients say' section starts here*/
+
+  .img {
+    max-width: 200%;
+    width: 600px;
+    vertical-align: middle;
+    max-height: 200%;
+    padding-right: 40px;
+    margin-right: 100px;
+  }
+
+  /*styling the 'what clients say' section ends here*/
+
+
