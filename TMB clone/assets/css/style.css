@@ -34,6 +34,7 @@ html {
     height: auto;
     font-family: 'localRobotoFont', Arial, sans-serif;
     overflow-x: hidden;
+    color: #333;
   }
 /*styling the nav starts here*/
   nav {
@@ -161,7 +162,7 @@ html {
   .inner-container {
     display: inline-block;
     margin: 0 auto;
-    background-color: #eee;
+    background-color: inherit;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -220,6 +221,7 @@ html {
   .block-display {
     display: block;
     margin: 0 auto;
+    background-color: inherit;
   }
 
   .write-up{
@@ -325,4 +327,13 @@ html {
 
   /*styling the 'what clients say' section ends here*/
 
+
+  /*styling the 'our relationship' section ends here*/
+
+  .svg-block{
+    padding: 30px;
+
+  }
+
+  /*styling the 'our relationship' section ends here*/
 
