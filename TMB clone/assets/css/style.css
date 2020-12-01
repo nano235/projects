@@ -356,6 +356,8 @@ html {
     font-weight: inherit;
     background-color: inherit;
     outline: none;
+    text-decoration: none;
+    color: inherit;
   }
 
   .accodion {
@@ -371,4 +373,32 @@ html {
   .faq:hover .accodion {
     color: inherit;
     display: block;
+  }
+
+
+  .details {
+    display: block;
+    margin: 20px 0 35px;
+    font-weight: 700;
+    color: #555;
+  }
+
+  .input {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    width: 400px;
+    outline: none;
+    background-color: inherit;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+
+  #footer {
+    background-color: #ccc;
+    padding: 70px 0 o;
+  }
+
+  .left {
+    margin-left: 20px;
   }
