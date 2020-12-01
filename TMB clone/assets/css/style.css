@@ -337,3 +337,38 @@ html {
 
   /*styling the 'our relationship' section ends here*/
 
+
+  .faq {
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    margin-right: 150px;
+    position: relative;
+  }
+
+  .faq::before {
+
+  }
+
+  .no-style{
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: inherit;
+    outline: none;
+  }
+
+  .accodion {
+    display: none;
+    border: 1px solid transparent;
+    padding: 20px 10px 10px 35px;
+    position: relative;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+  }
+
+  .faq:hover .accodion {
+    color: inherit;
+    display: block;
+  }
