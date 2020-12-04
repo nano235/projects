@@ -1,0 +1,77 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5;
+        height: auto;
+        font-family: 'localRobotoFont', Arial, sans-serif;
+        overflow-x: hidden;
+        color: #333;
+      }
+      
+    .btn-div {
+        flex: 1 0 50%;
+        margin-bottom: 10px;
+    }
+    nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding: 20px 30px 0;
+    }
+    .img-pd {
+        padding: 5px 100px 5px 0;
+        width: 80%;
+        flex: 0 0 50%;
+    }
+
+    .fl{
+        flex: 1 0 50%;
+        margin-left: 100px;
+    }
+    .hd {
+        padding: 10px 0 10px 480px; 
+        text-transform: capitalize; 
+        font-size: 30px; 
+        font-weight: 900;
+      }
+
+      .bd {
+        font-size: 15px; 
+        text-align: left;
+      }
+    
+      .box {
+        border: 1px solid transparent;
+        padding: 10px 0 10px 320px;
+        margin-left: 20px;
+      }
+
+      .fl-50 {
+        flex: 1 1 50%; 
+        padding: 50px 20px 50px 0; 
+        align-self: start;
+      }
+
+      .faq {
+        border-top: 1px solid #ddd;
+        padding: 10px;
+        margin: 0 100px 0 50px;
+        position: relative;
+      }
+
+      .footer-bottom {
+        display: flex; 
+        flex: 1 1 50%; 
+        padding: 60px 50px 40px; 
+        background-color: #333; 
+        color: ivory;
+        font-size: 12px;
+      }
+
+      .fs-12 {
+          font-size: 12px;
+      }
+}
