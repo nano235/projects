@@ -75,3 +75,95 @@
           font-size: 12px;
       }
 }
+
+
+/* Large devices (tablets, 769px and up) */
+@media (min-width: 769px) and (max-width: 991px) {
+    
+    nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding: 20px 40px 0;
+        position: relative;
+    }
+
+    .inner-nav-div {
+        display: none;
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 15px;
+    }
+
+    .nav-div{
+        position: relative;
+        margin-top: 80px;
+        background-color: #fff;
+        width: 90%;
+        z-index: 2;
+    }
+    .btn-div {
+        display: flex; 
+        flex: 1 1 20%;
+      }
+
+      .nav-btn {
+        background-color: transparent;
+        font-family: 'heebo';
+        padding: 10px;
+        margin: 0 0;
+        border: 2px solid #aaa;
+        border-radius: 25px;
+        outline: none;
+    }
+  
+    .nav-btn:hover {
+        background-color: #ccc;
+    }
+
+    .nav-button {
+        display: flex; 
+        flex: 0 1 15%;
+        padding: 0 0 40px;
+    }
+
+    .nav-logo {
+        text-decoration: none;
+        flex: 1 1 60%;
+    }
+
+    .slider-text{
+        font-size: 94px;
+        text-align: right;
+        margin: 0 auto;
+    }
+
+    .slider {
+        padding-left: 30px;
+        margin: 0 auto;
+    }
+
+    .fs-26 {
+        font-size: 18px;
+    }
+
+    .inner-container {
+        min-width: 400px;
+    }
+
+    .pr {
+        background-attachment: scroll;
+      }
+
+    .bg-img{
+        background-size: contain;
+      }
+
+    .mob {
+        display: block;
+        margin: 0 auto;
+      } 
+}

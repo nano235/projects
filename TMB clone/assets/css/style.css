@@ -202,6 +202,11 @@ html {
    -webkit-text-fill-color: transparent;
   }
 
+  .fs-26 {
+    font-size: 26px; 
+    text-transform: uppercase;
+  }
+
   .col-txt{
     text-transform: uppercase;
     font-family: 'heebo';
@@ -275,6 +280,10 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px -90%;
+  }
+
+  .pr {
+    background-attachment: fixed;
   }
 
   .fl-container {
@@ -439,4 +448,11 @@ html {
     padding: 60px 110px 40px; 
     background-color: #333; 
     color: ivory;
+  }
+
+
+  .nav-button{
+    display: none;
+    font-size: 40px;
+    padding: 20px;
   }
