@@ -345,12 +345,20 @@ html {
     margin-right: 100px;
   }
 
-
+  .img-cnt {
+    padding: 5px 100px; 
+    flex: 1 0 70%; 
+    margin-right: 130px;
+  }
   .card {
     display: block;
     width: 300px;
     border: 1px solid #aaa;
     background-color: #fff;
+  }
+
+  .mg {
+    margin: 20px 30px;
   }
 
   .card:hover {
@@ -363,14 +371,22 @@ html {
 
   /*styling the 'our relationship' section ends here*/
 
+  .txt-pd {
+    border: 1px solid transparent; 
+    padding: 0 380px 10px 40px;
+  }
+
   .svg-block{
     padding: 30px;
-
   }
 
   /*styling the 'our relationship' section ends here*/
 
-
+  .b-con {
+    display: flex; 
+    flex: 1 1 50%;
+  }
+  
   .faq {
     border-top: 1px solid #ddd;
     padding: 20px;
