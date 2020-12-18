@@ -42,11 +42,19 @@
         font-size: 15px; 
         text-align: left;
       }
+
+      .a-w-svg {
+        width: 100%;
+    }
     
       .box {
         border: 1px solid transparent;
         padding: 10px 0 10px 320px;
         margin-left: 20px;
+      }
+
+      .pd-0 {
+          padding: 0 10px 50px !important;
       }
 
       .fl-50 {
@@ -78,7 +86,7 @@
 
 
 /* Large devices (tablets, 769px and up) */
-@media (min-width: 769px) and (max-width: 991px) {
+@media (max-width: 991px) {
     
     nav {
         position: -webkit-sticky;
@@ -123,6 +131,7 @@
     .nav-btn:hover {
         background-color: #ccc;
     }
+    
 
     .nav-button {
         display: flex; 
@@ -137,9 +146,30 @@
 
     .slider-text{
         font-size: 94px;
-        text-align: right;
-        margin: 0 auto;
+        display: inline-flex;
+        text-align: center;
+        justify-self: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
     }
+
+    .d-in-flex {
+        display: inline-grid;
+    }
+
+    .bg-500 {
+        width: 700px;
+    }
+
+    .a-w-svg {
+        width: 110%;
+    }
+
+    .write-up{
+        width: 650px;
+      }
 
     .slider {
         padding-left: 30px;
@@ -157,10 +187,6 @@
     .pd {
         padding: 40px 0;
     }
-
-    .bg-sk {
-        background-attachment: scroll;
-      }
 
     .bg-img{
         background-size: cover;
@@ -217,4 +243,57 @@
     .footer-bottom {
         padding: 60px 70px 40px; 
       }
+}
+
+
+@media (max-width: 795px) {
+    .write-up{
+        width: 650px;
+      }
+
+    .inner-container {
+        min-width: 400px;
+    }
+
+    .pd-10 {
+        padding: 10px;
+    }
+
+    .pd-50 {
+        padding: 50px !important;
+    }
+
+    .mg-10 {
+        margin: 10px;
+    }
+
+    .mg {
+        margin: 50px;
+    }
+
+    .fl {
+        margin-left: 10px;
+    }
+
+    .footer-bottom {
+        padding: 60px 40px 40px; 
+      }
+
+    .hg {
+        height: 420px;
+        margin: 5px;
+    }
+
+    .a-w {
+        width: 100%;
+    }
+
+    .a-w-svg {
+        width: 60%;
+    }
+
+    .svg-block{
+        padding: 10px;
+      }
+
 }

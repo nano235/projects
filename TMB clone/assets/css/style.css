@@ -286,6 +286,10 @@ html {
     background-attachment: fixed;
   }
 
+  .hg {
+    height: 420px;
+  }
+
   .fl-container {
     display: flex;
     flex: 1 1 33%;
@@ -355,6 +359,10 @@ html {
     width: 300px;
     border: 1px solid #aaa;
     background-color: #fff;
+  }
+
+  .mg-10 {
+    margin: 10px;
   }
 
   .mg {
