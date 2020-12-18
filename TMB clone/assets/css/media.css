@@ -245,10 +245,10 @@
       }
 }
 
-
+/*for smaller tabs*/
 @media (max-width: 795px) {
     .write-up{
-        width: 650px;
+        width: 450px;
       }
 
     .tab-blk-disp {
@@ -260,12 +260,25 @@
         min-width: 400px;
     }
 
+    .slider-text {
+        font-size: 70px;
+        line-height: 100px;
+    }
+
     .pd-10 {
         padding: 10px;
     }
 
+    .pd-0 {
+        padding: 0;
+    }
+
     .pd-50 {
         padding: 50px !important;
+    }
+
+    .pd-s-100 {
+        padding: 0 100px;
     }
 
     .mg-10 {
@@ -282,6 +295,7 @@
 
     .footer-bottom {
         padding: 60px 20px 40px; 
+        display: block;
       }
 
     .hg {
@@ -294,7 +308,15 @@
     }
 
     .fs-13 {
-        font-size: 13px;
+        font-size: 13px !important;
+    }
+
+    .fs-10 {
+        font-size: 10px;
+    }
+
+    .fs-50 {
+        font-size: 50px;
     }
 
     .a-w {
@@ -307,10 +329,37 @@
 
     .mob-show {
         display: block;
+        margin: 10px auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fs-15 {
+        font-size: 15px;
+    }
+
+    .fs-26 {
+        font-size: 26px;
     }
 
     .svg-block{
         padding: 10px;
       }
+    .card-h {
+        font-size: 20px;
+      }
+    
+    .card-b {
+        font-size: 14px; 
+      }
+    
+    .hg {
+        height: 400px;
+    }
+}
+
+
+/*for phablets*/
+@media (max-width: 665px) {
 
 }
