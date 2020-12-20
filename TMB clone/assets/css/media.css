@@ -167,8 +167,8 @@
         width: 110%;
     }
 
-    .write-up{
-        width: 650px;
+    .box-size{
+        width: 800px;
       }
 
     .slider {
@@ -247,8 +247,9 @@
 
 /*for smaller tabs*/
 @media (max-width: 795px) {
-    .write-up{
-        width: 450px;
+    .box-size{
+        width: 600px;
+        padding: 40px;
       }
 
     .tab-blk-disp {
@@ -319,6 +320,10 @@
         font-size: 50px;
     }
 
+    .fs-40 {
+        font-size: 40px;
+    }
+
     .a-w {
         width: 100%;
     }
@@ -360,6 +365,28 @@
 
 
 /*for phablets*/
-@media (max-width: 665px) {
+@media (max-width: 580px) {
+
+    .btn-div { 
+        flex: 1 1 40%;
+    }
+
+    .box-size {
+        padding: 20px;
+      }
+    
+    .slider-text {
+        font-size: 55px;
+        line-height: 80px;
+    }
+
+    .mob-blk {
+        display: block;
+    }
+
+    .img {
+        width: 150%;
+        height: 1300%;
+    }
 
 }

@@ -172,7 +172,16 @@ html {
     align-items: center;
     align-content: center;
     justify-content: center;
-    min-width: 850px;
+  }
+
+  .dis-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-size {
+    width: 1000px;
+    padding: 60px;
   }
 
   /*animation for the slider starts here*/
@@ -242,7 +251,6 @@ html {
     margin: 15px auto;
     border: 1px solid transparent;
     margin-bottom: 20px;
-    width: 650px;
   }
 
   .style-btn {
