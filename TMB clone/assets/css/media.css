@@ -53,6 +53,8 @@
         margin-left: 20px;
       }
 
+      
+
       .pd-0 {
           padding: 0 10px 50px !important;
       }
@@ -66,7 +68,7 @@
       .faq {
         border-top: 1px solid #ddd;
         padding: 10px;
-        margin: 0 100px 0 50px;
+        margin: 0 80px 0 50px;
         position: relative;
       }
 
@@ -97,6 +99,13 @@
         position: relative;
     }
 
+    .bg-img{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+      }
+
     .inner-nav-div {
         display: none;
         margin: 0;
@@ -126,6 +135,14 @@
         border: 2px solid #aaa;
         border-radius: 25px;
         outline: none;
+    }
+
+    .no-pd {
+        padding: 0;
+    }
+
+    .no-mg {
+        margin: 0;
     }
   
     .nav-btn:hover {
@@ -211,7 +228,7 @@
 
     .img-cnt {
         margin: 0 auto;
-        padding: 50px 150px;
+        padding: 50px 80px;
     }
 
     .img {
@@ -269,6 +286,8 @@
     .pd-10 {
         padding: 10px;
     }
+
+   
 
     .pd-0 {
         padding: 0;
@@ -364,7 +383,7 @@
 }
 
 
-/*for phablets*/
+/*for phones*/
 @media (max-width: 580px) {
 
     .btn-div { 
@@ -385,8 +404,203 @@
     }
 
     .img {
-        width: 150%;
-        height: 1300%;
+        width: 80%;
+        margin: 0;
     }
 
+    .img-cnt {
+        padding: 50px;
+        vertical-align: middle;
+        margin: 0 auto;
+    }
+
+    .no-mg {
+        margin: 0;
+    }
+
+    .mob-blck {
+        display: block;
+      }
+    
+    .faq {
+        margin-right: 50px;
+        width: 120%;    
+    }
+
+    .w-100 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pd-20 {
+        padding: 20px !important;
+    }
+
+    .s-mob-blk {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .centering {
+        margin: 15px auto;
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    .m-fs-20 {
+        font-size: 20px !important;
+    }
+
+    .cap-fs {
+        font-size: 30px; 
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .img {
+        width: 80%;
+        vertical-align: middle;
+        padding: 0;
+        margin: 0;
+        margin: 0 auto;
+    }
+
+    .img-cnt {
+        padding: 50px;
+    }
+
+    .w-100 {
+        width: 100%;
+        vertical-align: middle;
+        padding: 0;
+        margin: 0;
+        margin: 0 auto;
+    }
+
+    .bg-img{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+    }
+
+    .nav-div {
+        display: none;
+    }
+
+    .nav-btn {
+        font-size: 10px;
+    }
+
+    .nav-logo {
+        flex: 15%;
+    }
+
+    .fl-50 {
+        padding-left: 30px;
+    }
+
+    .nav-button {
+        font-size: 30px;
+    }
+
+    .btn-div {
+        flex: 30%;
+    }
+
+    .fl-container {
+        display: block;
+        margin: 10px 50px;
+    }
+
+
+}
+
+@media (max-width: 420px) {
+
+    .slider-text {
+        font-size: 45px;
+    }
+
+    .inner-container {
+        min-width: 320px;
+    }
+
+    .tab-blk-disp {
+        padding: 50px 20px !important;
+    }
+
+    
+    .img {
+        width: 100%;
+    }
+
+    .fl-50 {
+        padding-left: 10px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 250px;
+        height: 370px;
+    }
+
+    .fl-50 {
+        padding-left: 0;
+    }
+
+    .m-fs-12 {
+        font-size: 12px;
+    }
+
+    .m-fs-25 {
+        font-size: 25px !important;
+    }
+
+    .m-fs-11 {
+        font-size: 11px !important;
+    }
+
+    .card-b {
+        font-size: 12px;
+    }
+
+    .style-btn {
+        padding: 10px 15px;
+    }   
+
+    .inner-container {
+        min-width: 250px;
+    }
+
+    .slider-text {
+        font-size: 30px;
+    }
+
+    .cap-fs {
+        font-size: 26px; 
+    }
+
+    
+    .img {
+        width: 100%;
+    }
+
+    .mr {
+        margin-left: 20px;
+    }
+
+    .footer-bottom {
+        padding: 60px 10px 40px;
+    }
+
+    .img-cnt {
+        padding: 10px;
+    }
 }

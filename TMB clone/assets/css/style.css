@@ -288,6 +288,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px -90%;
+    vertical-align: middle;
   }
 
   .pr {
@@ -312,12 +313,24 @@ html {
     display: flex;
   }
 
+  .mob-blck {
+    display: flex;
+  }
+
+  .fs-18 {
+    font-size: 18px;
+  }
+
   .counter-txt{
     font-family: 'heebo';
     font-weight: 900;
     font-size: 50px;
     margin-right: 5px;
   }
+
+  .fs-50 {
+    font-size: 50px;
+}
 
   .fl {
     flex: 1 0 30%; 
@@ -501,4 +514,9 @@ html {
     display: none;
     font-size: 40px;
     padding: 20px;
+  }
+
+  .cap-fs {
+    font-size: 40px; 
+    text-transform: capitalize;
   }
